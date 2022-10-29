@@ -1,10 +1,25 @@
 import InputGroup from 'react-bootstrap/InputGroup';
 import FormControl from 'react-bootstrap/FormControl';
+import styled from "styled-components";
+import AuthProvider from "../hooks/AuthProvider";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import MobileNavigation from './MobileNavigation';
 
+export const Button = styled.button`
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    background: ${props => props.primary ? "palevioletred" : "#9b59b6" };
+    color: #fff;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+`; 
+
 const Header = ({links}) => {
+    const { handleLogout } = AuthProvider();
+
     return (
         <header className="header">
             <MobileNavigation links={links}/>
@@ -34,6 +49,7 @@ const Header = ({links}) => {
                         </a>
                     </div>
                     <span className="name">Name</span>
+                    <Button onClick={handleLogout}>Logout</Button>
                 </div>
             </div>
         </header>
