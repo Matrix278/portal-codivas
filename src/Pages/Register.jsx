@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import RegisterHook from "../hooks/RegisterHook";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-export const Forms =  styled.div`
+export const Forms =  styled.form`
   border-radius:0px 50px 0px 50px;
   box-shadow: 10px 10px 10px 5px #080808;
   margin-top:10px;  
