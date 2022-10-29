@@ -21,8 +21,8 @@
   color: #202020;
 }
 
-footer{
-  font-family:'Merriweather Sans';
+footer {
+  font-family: "Merriweather Sans";
 }
 footer span {
   color: #197dff;
@@ -54,4 +54,4 @@ footer span {
   .footer-links {
     flex-direction: column;
   }
-}/*# sourceMappingURL=footer.css.map */
+} /*# sourceMappingURL=footer.css.map */

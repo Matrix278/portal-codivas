@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import logo from "../Assets/Images/codivas-dark.png"
+import logo from "../Assets/Images/codivas-dark.png";
 
 const Copyright = styled.span`
   padding: 1rem 0 1rem 1rem;
@@ -16,12 +16,11 @@ const Footers = styled.footer`
   position: sticky;
   bottom: 0;
   background-color: white;
-  padding: 1rem ;
+  padding: 1rem;
   img {
     position: absolute;
     inset: 0;
-    margin:auto;
-   
+    margin: auto;
   }
   ${Copyright} {
     padding: 1rem 1rem 1rem 1rem;
@@ -41,11 +40,6 @@ function Footer() {
       <ul className="footer-links">
         <li>
           <Link to="/">Codivas</Link>
-        </li>
-        <li>
-          <a href="https://codivas.com.br" target="_blank" rel="noreferrer">
-            SobreNos
-          </a>
         </li>
         <li>
           {/* <a
