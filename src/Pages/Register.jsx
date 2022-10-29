@@ -33,12 +33,12 @@ function Register() {
   return (
     <div className="container d-flex mt-5 flex-column align-items-center">
 			<img src="logo.png" width={180} alt="Codivas" className="mb-3" />
-			<Forms onSubmit={handleRegister} className=" d-flex flex-column border p-5 " style={{ height: "450px", textAlign: "center" }}>
-				<div class="form-group d-flex flex-column justify-content-between" style={{ height: "450px", border: "1px solid transparent" }}>
+			<Forms onSubmit={handleRegister} className=" d-flex flex-column border p-5 " style={{ height: "fit-content", textAlign: "center" }}>
+				<div class="form-group d-flex flex-column justify-content-between" style={{ height: "fit-content", border: "1px solid transparent",gap:"16px" }}>
 					<p className="text-muted">Bem Vinda CODIVAS!</p>
-					<input type="email" name="email" placeholder="E-mail" required onChange={handleEmail} />
-                <input type="text" name="username" placeholder="Username" required onChange={handleUserName} />
-                <input type="password" name="password" placeholder="Password" required onChange={handlePassword} />
+					<input className="form-control" type="email" name="email" placeholder="E-mail" required onChange={handleEmail} />
+                <input className="form-control" type="text" name="username" placeholder="Username" required onChange={handleUserName} />
+                <input className="form-control" type="password" name="password" placeholder="Password" required onChange={handlePassword} />
                 <Input type="submit" name="submit" value="Register" />
 				</div>
         <p className="mb-3">Já tem uma conta? <Link to="/" className="nav-link d-inline">Login</Link></p>

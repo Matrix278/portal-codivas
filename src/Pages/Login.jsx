@@ -30,8 +30,8 @@ function Login() {
 	return (
 		<div className="container d-flex mt-5 flex-column align-items-center">
 			<img src="logo.png" width={180} alt="Codivas" className="mb-3" />
-			<Forms onSubmit={handleLogin} className=" d-flex flex-column border p-5 " style={{ height: "450px", textAlign: "center" }}>
-				<div class="form-group d-flex flex-column justify-content-between" style={{ height: "450px", border: "1px solid transparent" }}>
+			<Forms onSubmit={handleLogin} className=" d-flex flex-column border p-5 " style={{ height: "fit-content", textAlign: "center" }}>
+				<div class="form-group d-flex flex-column justify-content-between" style={{ height: "fit-content", border: "1px solid transparent",gap:'16px' }}>
 					<p className="text-muted">Bem Vinda CODIVAS!</p>
 					<input className="form-control" type="email" name="" placeholder="E-mail" onChange={handleEmail} required />
 					<input className="form-control" type="password" name="" placeholder="Password" onChange={handlePassword} required />
