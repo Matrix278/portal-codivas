@@ -9,9 +9,17 @@ This year we want to improve for our community, and for it, we will need another
 We choose  react for it, because most of women know more about react then others frameworks.
 
 Let´s get started?!
+1 - Check our issues to select wich ones do you want to make your 4 PR´s to win the kit or build your Tree! 
+2 - fork and clone! ... git clone <url>
+3 - send your modifications to a new branch with the name of the issue like ... git checkout -b #45
+4 - send your commit with the message "closes  #issue " ... git commit -m " closes issue #45 
+5 - open your PR 
+6 - We will check and aprove your PR !!
+7 - keep watching your notifications to see if we had some coments to make modification to aprove your PR
 
-We already have our landing page now in bootstrap on repository #landing-codivas to start our react app
-Check our issues to select wich ones do you want to make your 4 PR´s to win the kit or build your Tree! 
+thank you for your time!!! 
+Keep hacking with codivas 💜
+
 
 ## 💜 portugues-Brasil
 
